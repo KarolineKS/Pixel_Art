@@ -9,7 +9,7 @@ body {
   background-position: center;
   background-size: cover;
   font-family:'Courier New', Courier, monospace;
-  color: rgb(240, 240, 240);
+  color: rgb(4, 2, 34);
 }
 
 #title {
@@ -18,8 +18,8 @@ body {
   margin-bottom: 30px;
   letter-spacing: 8px;
   font-size: 35px;
-  text-decoration: underline;
-  background-color: rgba(29, 28, 28, 0.644);
+  font-weight: 400;
+  background-color:  rgba(87, 105, 119, 0.7);
   padding: 20px;
 }
 
@@ -28,16 +28,8 @@ body {
   text-align: center;
   display: inline-block;
   padding: 20px;
-  background-image: linear-gradient(
-    to left
-    ,
-    #092B9C,
-    #033AA8,
-    #3170DE,
-    #3487E1,
-    #2DA0ED
-  );
-  border-radius: 10px;
+  background-color: rgb(198, 207, 214);
+  border-radius: 30px;
 }
 
 section {
@@ -86,16 +78,44 @@ section {
 .text-paleta {
   margin-bottom: 15px;
   font-size: 20px;
-  background-color: rgba(29, 28, 28, 0.644);
-  padding: 10px 0;
+  font-weight: 500;
+  background-color:  rgba(87, 105, 119, 0.7);
+  padding: 15px 0;
   margin-top: 15px;
 }
 
 #clear-board {
-  width: 70px;
+  width: 100px;
   height: 40px;
   margin-top: 20px;
   font-family: 'Courier New', Courier, monospace ;
+  border-radius: 15px;
+  letter-spacing: 5px;
+}
+
+.nav-links-redessociais {
+  background-color: rgb(198, 207, 214);
+  position: fixed;
+  top: 7%;
+  left: 95%;
+  border-radius: 15px;
+  border: solid 2px rgba(29, 28, 28, 0.644);
+}
+
+.icone_linkedin {
+  width: 50px;
+  margin-left: 8px;
+  margin-top: 18px;
+}
+.icone_insta {
+  width: 40px;
+  margin-left: 14px;
+  margin-top: 5px;
+  padding-right: 5px;
+}
+.icone_git {
+  width: 65px;
+  margin-left: 3px;
 }
 
 
