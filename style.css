@@ -14,11 +14,12 @@ body{
 }
 
 #color-palette {
-  border: solid 2px black;
+  border: solid 1px black;
   text-align: center;
   display: inline-block;
   padding: 20px;
   background-color: rgb(246, 247, 245);
+  border-radius: 10px;
 
 }
 
@@ -63,7 +64,6 @@ section {
   display: inline-block;
   margin-top: 20px;
   margin-bottom: 20px;
-  border: solid 1px red; 
 }
 
 section h2 {
