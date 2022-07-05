@@ -31,8 +31,8 @@ section {
   display: inline-block;
   border: solid 1px black;
   padding: 20px;
-  margin-left: 8px;
-  margin-top: 10px;
+  margin: 10px;
+ 
 }
 
 .color-black {
@@ -53,20 +53,21 @@ section {
 
 .pixel {
   display: inline-block;
-  padding: 20px;
+  width: 40px;
+  height: 40px;
   border: solid 1px black;
   vertical-align: middle;
   background-color: white;
 }
 
 #pixel-board {
+  display: inline-block;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  border: solid 1px red;
-  width: 210px;
+  border: solid 1px red; 
 }
+
 section h2 {
   margin-top: 10px;
 }
+
