@@ -24,7 +24,6 @@ body{
 
 section {
   text-align: center;
-  border: 1px solid green;
 }
 
 .color {
@@ -69,5 +68,10 @@ section {
 
 section h2 {
   margin-top: 10px;
+}
+#clear-board {
+  width: 60px;
+  height: 30px;
+  margin-top: 20px;
 }
 
