@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url(https://www.institutoclaro.org.br/educacao/wp-content/uploads/sites/2/2018/09/Plano-de-aula-Pixels-destaque-1.jpg);
+  background-image: url(https://images6.alphacoders.com/715/thumb-1920-715677.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -14,16 +14,14 @@ body {
 
 #title {
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
   letter-spacing: 10px;
   font-size: 60px;
   font-weight: 500;
   padding: 30px;
-  background-color:  gray;
+  background-color:  rgba(8, 8, 8, 0.658);
   border-radius: 10px;
   font-family: 'VT323', monospace;
-  margin: 30px;
+  margin: 30px 200px;
   border: 2px solid white;
 }
 
@@ -151,15 +149,13 @@ section {
 }
 
 main {
- background-color: gray;
+ background-color: rgba(8, 8, 8, 0.658);
  margin-left: auto;
  margin-right: auto;
  border-radius: 10px;
- margin: 30px;
+ margin: 30px 200px;
  border: 2px solid white;
  padding: 2px 0; 
 }
-header {
-  
-}
+
 
