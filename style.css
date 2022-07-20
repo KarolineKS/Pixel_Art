@@ -4,11 +4,11 @@
 }
 
 body {
-  background-image: url(https://images6.alphacoders.com/715/thumb-1920-715677.png);
+  background-image: url(https://cdn.wallpapersafari.com/77/49/qba25f.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  font-family:'Courier New', Courier, monospace;
+  font-family: Geneva;
   color: rgb(255, 255, 255);
 }
 
@@ -19,10 +19,10 @@ body {
   font-weight: 500;
   padding: 30px;
   background-color:  rgba(8, 8, 8, 0.658);
-  border-radius: 10px;
-  font-family: 'VT323', monospace;
+  border-radius: 55px;
+  font-family: Tahoma;
   margin: 30px 200px;
-  border: 2px solid white;
+  border: 2px solid black;
 }
 
 #color-palette {
@@ -33,6 +33,7 @@ body {
   border-radius: 30px;
   margin-bottom: 20px;
   border: 2px solid black;
+  cursor: pointer;
 }
 
 section {
@@ -78,15 +79,17 @@ section {
   display: inline-block;
   margin-top: 5px;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 
 .text {
   margin-bottom: 15px;
   font-size: 25px;
-  font-weight: 100;
+  font-weight: bolder;
   padding: 15px 0;
   margin-top: 15px;
   border-radius: 10px;
+  letter-spacing: 5px;
 }
 
 #clear-board {
@@ -98,10 +101,11 @@ section {
   letter-spacing: 5px;
   color: white;
   background-color:  #5FC28C;
+  cursor: pointer;
 }
 
 .nav-links-redessociais {
-  background-color: rgb(198, 207, 214);
+  background-color:white;
   position: fixed;
   top: 7%;
   left: 95%;
@@ -139,22 +143,25 @@ section {
   color: black;
   border-radius: 10px;
   border: 2px black solid;
+  cursor: pointer;
 }
+
 #generate-board {
   width: 50px;
   height: 38px;
   border-radius: 10px;
   background-color:  #5FC28C;
   color: white;
+  cursor: pointer;
 }
 
 main {
  background-color: rgba(8, 8, 8, 0.658);
  margin-left: auto;
  margin-right: auto;
- border-radius: 10px;
+ border-radius: 80px;
  margin: 30px 200px;
- border: 2px solid white;
+ border: 2px solid black;
  padding: 2px 0; 
 }
 
