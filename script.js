@@ -36,8 +36,9 @@ function gerandoBoard(tamanhoBoard) {
     const pixelColorir = document.createElement('div');
     quadroColorir.appendChild(pixelColorir);
     pixelColorir.className = 'pixel';
+    
     if (index % tamanhoBoard === 0) {
-      const quebraDeLinha = document.createElement('br');
+      const quebraDeLinha = document.createElement('div');
       quadroColorir.appendChild(quebraDeLinha);
     }
   }
@@ -78,4 +79,3 @@ function limparBoard() {
 limparBoard();
 
 window.onload = selecionadaInicial;
-
