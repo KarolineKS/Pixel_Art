@@ -1,36 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@KarolineKS 
-KarolineKS
-/
-Pixel_Art
-Public
-Fork your own copy of KarolineKS/Pixel_Art
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-Beta Try the new code view
-Pixel_Art/script.js /
-@KarolineKS
-KarolineKS alterações no script.js e no style.css
-Latest commit ced80ea on Jul 20, 2022
- History
- 1 contributor
-80 lines (68 sloc)  2.14 KB
- 
-
 const quadroColorir = document.getElementById('pixel-board');
 let corSelecionada;
 const corPreta = document.querySelector('.color-black');
