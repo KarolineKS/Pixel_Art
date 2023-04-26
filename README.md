@@ -1,7 +1,7 @@
 
 # Arte com Pixel
 
-Esse projeto foi desenvolvido no módulo de Fundamentos do Curso da Trybe e tem por finalidade ser um aplicativo no qual o usuário possa criar desenhos preenchendo pixels de um quadro.
+Esse projeto foi desenvolvido no módulo de Fundamentos do Curso da Trybe e tem por finalidade ser editor de arte com pixels em que a pessoa usuária poderá escolher uma cor em uma paleta de cores e poderá pintar o que quiser em um quadro branco.
 
 
 ## 🚀 Projeto Rodando
